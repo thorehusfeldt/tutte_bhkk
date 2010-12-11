@@ -1,0 +1,19 @@
+REQUIRED LIBRARIES AND PACKAGES
+-------------------------------
+
+The main program "tutte_bhkk.c" requires the GNU Multiple Precision
+Arithmetic Library (GMP) version 5.0.1, see gmplib.org.
+
+The python wrapper "tutte.py" requires python version 2.6 and the
+networkx package version 1.3, see networkx.lanl.gov.
+
+The Makefile requires that perl is installed.
+
+INSTALLATION
+------------
+
+To compile and test, run
+
+        make
+	make test
+	python tutte.py --petersen
